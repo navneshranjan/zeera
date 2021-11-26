@@ -1,4 +1,104 @@
+.dashboard {
+  display: flex;
+  margin-left: 40px;
+  flex-wrap: nowrap;
+}
+.heading {
+  display: flex;
+  margin-bottom: 20px;
+}
+.heading img {
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.board {
+  margin-left: 40px;
+}
+
 .card1 {
-  border-color: black;
-  background-color: blue;
+  background-color: rgb(190, 190, 190);
+  margin-right: 30px;
+  height: 200px;
+  width: 200px;
+}
+.card1 h5 {
+  margin-left: 10px;
+  padding-top: 20px;
+  padding: 10px;
+}
+.card1 h {
+  margin-left: 10px;
+}
+.card2 {
+  margin-right: 30px;
+  background-color: rgb(190, 190, 190);
+  height: 200px;
+  width: 200px;
+}
+.card3 {
+  margin-right: 30px;
+  background-color: rgb(190, 190, 190);
+  height: 200px;
+  width: 200px;
+}
+.subcard {
+  width: 150x;
+
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+}
+.question {
+  height: 30px;
+  background-color: rgb(33, 33, 61);
+  color: white;
+}
+.question h {
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  margin-left: 35px;
+  height: 40px;
+  color: white;
+  background-color: #2f3f53;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+.section a {
+  color: white;
+  text-decoration: none;
+}
+.section p {
+  text-decoration: underline;
+  color: rgb(243, 243, 243);
+}
+.section h5 {
+  display: flex;
+  align-items: center;
+}
+.search {
+  margin-left: 40px;
+  margin-top: 10px;
+  display: flex;
+}
+.search input {
+  height: 30px;
+  width: 100px;
+
+  margin-bottom: 20px;
+}
+.search img {
+  height: 40px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.photo {
+  margin-left: 20px;
 }

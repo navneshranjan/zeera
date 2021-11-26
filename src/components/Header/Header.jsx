@@ -39,10 +39,10 @@ function Header() {
             placeholder="Search"
           />
           <div className="notification">
-            <img src="./images/nav-notifications.svg" />
+            <img src="./images/nav-notifications.svg" alt="notification" />
           </div>
           <div className="user">
-            <img src="./images/user.svg" />
+            <img src="./images/user.svg" alt="user" />
           </div>
         </ul>
       </div>
